@@ -64,7 +64,7 @@ input:focus {
 	font-size: 18px;
 	bottom: 35px;
 	width: 2rem;
-	right: 100px;
+	right: 150px;
 	color: #fff;
 	background: transparent;
 	border-radius: 15px;
@@ -91,4 +91,13 @@ input:focus {
 	position: absolute;
 	top: 4rem;
 	left: 2rem;
+}
+
+.text-expirationMonth {
+	position: absolute;
+	font-size: 12px;
+	bottom: 32.5px;
+	right: 75px;
+	width: 3rem;
+	color: #fff;
 }
