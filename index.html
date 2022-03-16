@@ -5,22 +5,22 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Project - Input with Mask</title>
-		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
 		<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Open+Sans:wght@300;400&family=Poppins:wght@200;400;600;800&family=Roboto:wght@100;300&family=The+Nautigal&display=swap" rel="stylesheet" />
 	</head>
 	<body>
 		<div id="app">
 			<div class="card">
-				<img src="./image/BBVA-logo.png" alt="" class="bbva" />
-				<img src="./image/credit-card-chip-png-5.png" alt="" class="chip" />
+				<img src="./image/BBVA-logo.png" alt="img-bbva" class="bbva" />
+				<img src="./image/credit-card-chip-png-5.png" alt="img-chipSecurity" class="chip" />
 				<div class="holder">Tomas Daniel Aranda</div>
 				<input type="text" class="inputCard" id="inputCard" />
 				<input type="text" class="inputDate" id="inputDate" />
+				<span class="text-expirationMonth">valido <span>hasta</span></span>
 				<input type="text" class="inputCVV" id="inputCVV" />
 			</div>
 		</div>
-		<script type="text/javascript" src="./vanilla-tilt.js"></script>
-		<!-- script setting tilt -->
+		<script type="text/javascript" src="./assets/js/vanilla-tilt.js"></script>
 		<script>
 			VanillaTilt.init(document.querySelectorAll('.card'), {
 				max: 25,
@@ -29,6 +29,6 @@
 				'max-glare': 1,
 			});
 		</script>
-		<script src="./app.js"></script>
+		<script src="./assets/js/app.js"></script>
 	</body>
 </html>
