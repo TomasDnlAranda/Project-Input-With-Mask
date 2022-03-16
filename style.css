@@ -1,0 +1,94 @@
+body {
+	background-image: linear-gradient(109.6deg, rgba(62, 161, 219, 1) 11.2%, rgba(93, 52, 236, 1) 100.2%);
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+}
+
+.card {
+	position: relative;
+	height: 300px;
+	width: 500px;
+	border-radius: 25px;
+	box-shadow: 0 0 75px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(30px);
+	border: 2px solid rgba(255, 255, 255, 0.1);
+	margin: 9rem auto 0;
+}
+
+.inputCard {
+	position: absolute;
+	left: 40px;
+	bottom: 95px;
+	color: #fff;
+	font-size: 30px;
+	background: transparent;
+	border-radius: 15px;
+	border: none;
+	border: 1px solid #fff;
+	padding: 0.25rem;
+	width: 19rem;
+}
+
+input:focus {
+	border: none;
+	outline: none;
+}
+
+.holder {
+	position: absolute;
+	font-size: 18px;
+	left: 40px;
+	bottom: 35px;
+	color: #fff;
+	font-size: proppins;
+	letter-spacing: 2px;
+}
+
+.inputDate {
+	position: absolute;
+	font-size: 18px;
+	bottom: 35px;
+	right: 25px;
+	width: 3rem;
+	color: #fff;
+	background: transparent;
+	border-radius: 15px;
+	border: 1px solid #fff;
+	padding: 0.25rem;
+}
+
+.inputCVV {
+	position: absolute;
+	font-size: 18px;
+	bottom: 35px;
+	width: 2rem;
+	right: 100px;
+	color: #fff;
+	background: transparent;
+	border-radius: 15px;
+	border: 1px solid #fff;
+	padding: 0.25rem;
+}
+
+.inputDate:focus {
+	border: none;
+	outline: none;
+}
+
+.bbva {
+	width: 35%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	right: 15px;
+}
+
+.chip {
+	width: 15%;
+	height: auto;
+	position: absolute;
+	top: 4rem;
+	left: 2rem;
+}
