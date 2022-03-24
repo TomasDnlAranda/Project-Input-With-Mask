@@ -2,7 +2,7 @@
 
 _It is a project where I consume the rick and morty api, and generate a search engine for the characters of said series, saving the data in the local storage_
 
-[Demo](https://app-api-character-finder.netlify.app//)
+[Demo](https://tomasdnlaranda.github.io/Project-Input-With-Mask///)
 
 technical skills applied in the project:
 
